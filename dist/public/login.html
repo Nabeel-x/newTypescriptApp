@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="validate.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <form method="post" action="/auth" id="LoginForm">
+        <input type="text" name="name" required minlength="8" maxlength="32"><br>
+        <input type="password" name="password" required minlength="8" maxlength="32"><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
