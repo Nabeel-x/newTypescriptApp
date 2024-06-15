@@ -1,1 +1,4 @@
 node_modules/
+src/testserver.ts
+dist/testserver.js
+dist/testpublic
